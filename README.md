@@ -1,6 +1,7 @@
 # Tecnicas_de_Programacion
 ## Para poder regularizar la metería, deberán presentar el siguiente práctico:
-1) Página Web (recomiendo usar WIX, JOOMLA).
+
+### 1) Página Web (recomiendo usar WIX, JOOMLA).
 
 Debe contener:
 
@@ -11,7 +12,7 @@ Debe contener:
     Acceso al sistema solicitando usuario y contraseña
     Oferta de producto, indicando precio y fotos.
 
-2) El sistema debe contener :
+### 2) El sistema debe contener :
   Nombre de Usuario y contraseña
 
 # Tablas
