@@ -1,0 +1,32 @@
+1- Despues de instalar sql server y si no reconoce el comando sqlcmd  ->
+
+ls /opt/mssql-tools/bin/sqlcmd*
+
+After you get the name of the tool you can create a symlink:
+
+ln -sfn /opt/mssql-tools/bin/sqlcmd /usr/bin/sqlcmd
+
+2- Para ver el estado del server :
+
+systemctl status mssql-server
+
+3-Stop mssql-server service.
+
+sudo systemctl stop mssql-server
+
+#Start mssql-server service.
+
+sudo systemctl Start mssql-server
+
+#Stop and Disable mssql-server service.
+
+sudo systemctl stop mssql-server
+
+sudo systemctl disable mssql-server
+
+#Enable and start mssql-server service.
+
+sudo systemctl enable mssql-server
+
+sudo systemctl start mssql-server
+
