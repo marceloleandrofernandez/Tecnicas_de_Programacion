@@ -1,9 +1,426 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Pizza</title>
-</head>
-<body>
+<html lang="es-AR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Facundo Vergara,Marcelo Fernandez">
+    <meta name="description" content="Pizzeria Yosuko - Todas las pizzas que puedas imaginar, envios a domicilio" />
+    <meta name="keywords" content="Pizza, Yosuko, Posadas, Misiones" />
+    <link  href="FrontEnd/img/small-logo.png" rel="icon" type="image/png"/>
+    <title>Pizzeria | Yosuko</title>
 
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/bootstrap.min.css">
+    <!-- Meterial Icon CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/materialdesignicons.min.css">
+    <!-- Material CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/material.min.css">
+    <!-- Ripples CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/ripples.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/owl.carousel.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="FrontEnd/css/magnific-popup.css">
+    <!-- Slicknav CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/slicknav.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/animate.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="FrontEnd/css/responsive.css">
+ 
+    <link rel="stylesheet" href="FrontEnd/css/estilo.css">
+
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="FrontEnd/css/purple.css" media="screen" />
+
+  </head>
+  <body>
+
+    <!-- Header Start -->
+    <header id="header">
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar nav-bg">
+        <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="FrontEnd/img/logo.png" alt="Logo Montajes"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item ">
+                  <a class="nav-link" href="#Pedido">¡Pedí acá!</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link" href="#Somos">Nosotros</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link" href="#Pizzas">Nuestras Pizzas</a>
+              </li>
+              
+               <li class="nav-item ">
+                  <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link" href="Login/index.html">Login</a>
+              </li>
+
+
+            </ul>
+          
+          </div>
+        </div>
+        <!-- Mobile Menu Start -->
+        <ul class="wpb-mobile-menu">
+          <li>
+                <a href="index.html">Principal</a>
+          </li>
+          <li>
+                <a href="#Pedido">¡Pedí acá!</a>
+          </li>
+          <li>
+                <a href="#Somos">Nosotros</a>
+          </li>
+          <li>
+                <a href="#Pizzas">Nuestras Pizzas</a>
+          </li>
+          <li>
+                <a href="#Contacto">Contacto</a>
+          </li>
+          <li>
+                <a  href="Login/">Login</a>
+          </li>
+
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Carousel Section Start -->
+    <div id="main-slide" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+        <li data-target="#main-slide" data-slide-to="1"></li>
+        <li data-target="#main-slide" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="FrontEnd/img/slider/slider-bg1.jpg" alt="First slide">
+          <div class="carousel-caption d-md-block">
+            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".4s" id="color00">Riquisimas</h1>
+            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".6s" id="color01">Simples, Especiales , Completas y la especial de la casa</h5>
+            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common" data-wow-delay=".8s">¡Hacé tu pedido!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="FrontEnd/img/slider/slider-bg2.jpg" alt="Second slide">
+          <div class="carousel-caption d-md-block">
+            <h1 class="animated wow fadeInLeft hero-heading" data-wow-delay=".7s" id="color02">Atencíon Personalizada</h1>
+            <h5 class="animated wow fadeInRight hero-sub-heading" data-wow-delay=".9s" id="color03">Contáctenos a través de nuestra web, teléfonicamente o visitándonos en nuestro local.</h5>
+            <a href="#Contacto" class="animated fadeInUp wow btn btn-common" data-wow-delay=".6s">Contactenos</a>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="FrontEnd/img/slider/slider-bg3.jpg" alt="Third slide">
+          <div class="carousel-caption d-md-block">
+            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s" id="color04">Multitud de Variedades</h1>
+            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".8s" id="color05">¡¡Todas las variedades de Pizza, pedilas YA!!.</h5>
+            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common" data-wow-delay=".8s">¡Hacé tu pedido!</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+        <span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-left" data-ripple-color="#F0F0F0"></i></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+        <span class="carousel-control" aria-hidden="true"><i class="mdi mdi-arrow-right" data-ripple-color="#F0F0F0"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Main Carousel Section End -->
+
+ 
+
+  
+
+    <!-- Services Section -->
+    <a name="Somos"></a>   
+     
+    <section class="Material-service-section section-padding" id="serviciospadding">
+      <div class="container">
+          <div class="row">
+            <!-- Section Titile -->
+              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                 <h1 class="contact-title text-center wow animated fadeInDown" data-wow-delay=".2s" id="servicios01">¿Por qúe elegirnos?</h1>
+              </div>
+          </div>
+          <!-- Services Widget Section -->
+          <div class="row">
+              <!-- Service Widgets -->
+              <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".3s">
+                  <div class="media">
+                      
+                      <div class="media-body">
+                          <h2 class="subtitle"><a href="#">Tu Reunión, tu cumpleaños, tu evento</a></h2>
+                          <p>Elegí el combo que más se adapte a la cantidad de invitatos o bien hacé el pedido a medida. ¡Te lo hacemos simple!</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Service Widgets -->
+              <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".4s">
+                  <div class="media">
+                      
+                      <div class="media-body">
+                          <h2 class="subtitle"><a href="#">Elaboración Artesanal</a></h2>
+                          <p> Nuestros productos son elaborados artesanalmente y sin aditivos.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Service Widgets -->
+              <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".5s">
+                  <div class="media">
+                      
+                      <div class="media-body">
+                          <h2 class="subtitle"><a href="#">Trabajamos a pedido</a></h2>
+                          <p> Según la cantidad de invitados que tengas, armamos el pedido a medida.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Service Widgets -->
+              <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".6s">
+                  <div class="media">
+                      
+                      <div class="media-body">
+                          <h2 class="subtitle"><a href="#">Calidad y Tradición</a></h2>
+                          <p>Todas nuestras recetas se elaboran usando unicamente productos de la máxima calidad, respetando las tradiciones más antiguas para mantener todo el sabor de la cocina tradicional italiana.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Service Widgets -->
+              <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".7s">
+                  <div class="media">
+                     
+                      <div class="media-body">
+                          <h2 class="subtitle"><a href="#">Entrega a Domicilio</a></h2>
+                          <p>Disponemos de servicio diario de entrega a domicilio. Le llevamos su pedido a casa sin ningún cargo adicional, para que pueda disfrutar de nuestros platos en su propio hogar.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Service Widgets -->
+              <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget wow animated fadeInUp" data-wow-delay=".8s">
+                  <div class="media">
+                      
+                      <div class="media-body">
+                          <h2 class="subtitle"><a href="#">Horno de leña</a></h2>
+                          <p>En Pizzeria Yosuko somos la única pizzería de la zona que dispone de un horno de leña, donde sus pizzas conseguirán ese sabor único e inigualable de una pizza tradicional italiana cocinada a la piedra.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+ 
+
+   
+
+    <!-- Start Testimonial Section  -->
+    <div class="testimonial section-padding">
+      <div class="container">
+        <div class="row">
+          <!-- Testimonial section  -->
+          <div class="testimonials-carousel owl-carousel">
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="datils">
+                   <h5>Vergara Facundo</h5>
+                  <span>Gerente General</span>
+                  <p>"Vení a comer la pizzas de Yosuko, no te la pierdas. Tenemos mas de 20 variedades, hechas con los mejores ingredientes y la mejor calidad, te esperamos!"</p>
+                </div>
+                <div class="img">
+                  <a href="#"><img class="img-fluid" src="FrontEnd/img/equipo/author1.jpg"  alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-item">
+                <div class="datils">
+                  <h5>Marcelo Fernandez</h5>
+                  <span>Gerente General</span>
+                 <p>Nuestra mision es ofrecer a nuestros clientes una experiencia positiva, única e inolvidable, garantizando alimentos de la mejor calidad, brindando siempre un servicio orientado a satisfacer y superar sus expectativas.</p>
+                </div>
+                <div class="img">
+                  <a href="#"><img class="img-fluid"  src="FrontEnd/img/equipo/author2.jpg"  alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial Section  -->
+
+  
+
+   
+
+    <!-- Contact Us Section -->
+    <a name="Contacto"></a>   
+     
+    <section class="Material-contact-section section-padding section-dark">
+      <div class="container">
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                  <h1 class="section-title">DEJANOS TU MENSAJE</h1>
+              </div>
+          </div>
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                <p>Para comentarios, recomendaciones, quejas o sugerencias. No dude en escribirnos.</p>
+
+                <div class="find-widget">
+                  <a href="#"><i class="material-icons mdi mdi-map-marker"></i>Tripoli N° 3329  Posadas - Misiones</a>
+                </div>
+                <div class="find-widget">
+                    <a href="#"><i class="material-icons mdi mdi-phone"></i> +54 0376 444-7403</a>
+                </div>
+                <div class="find-widget">
+                    <a href="#"><i class="material-icons mdi mdi-email-open mr-3"></i>normal10posadas@yahoo.com.ar</a>
+                </div>
+                <div class="find-widget">
+                    <a href="#"><i class="material-icons mdi mdi-clock"></i> Lunes a Viernes: 19:00 PM - 23:00 PM</a>
+                </div>
+              </div>
+              <!-- contact form -->
+              <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                      <!-- Name -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="name">Nombre</label>
+                        <input class="form-control" id="name" type="text" name="name" required data-error="Ingrese su nombre">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- email -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required data-error="Ingrese su Email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Subject -->
+                      <div class="form-group label-floating">
+                        <label class="control-label">Asunto</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Ingrese el asunto">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Message -->
+                      <div class="form-group label-floating">
+                          <label for="message" class="control-label">Mensaje</label>
+                          <textarea class="form-control" rows="3" id="message" name="message" required data-error="Escriba su mensaje"></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Form Submit -->
+                      <div class="form-submit mt-5">
+                          <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Enviar Mensaje</button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- Contact Us Section End -->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
+      <!--Footer Links-->
+      <div class="container pt-5 mb-5">
+        <div class="row">
+          <!--First column-->
+          <div class="col-md-12 col-lg-12 col-xl-12 footer-contact-widget">
+              <h3 class="footer-title"></h3>
+              <p>   La mejor pizzería en Posadas, hace tu pedido!<br>
+                Pizzas italianas, empanadas y más. ¡Buscanos en nuestras redes sociales!
+              </p>
+              <ul>
+                <li>
+                  <a href="#" target="_blank"><i class="mdi mdi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="mdi mdi-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="mdi mdi-twitter"></i></a>
+                </li>
+              </ul>
+          </div>
+          <!--/.First column-->
+       
+      </div>
+      </div>
+    
+      <!--/.Footer Links-->
+
+      <!-- Copyright-->
+      <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" >
+                    <p>Designed by <span style="color:#FF5274">Facundo Vergara & Marcelo Fernandez</span>&copy;  2018</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!--/.Copyright -->
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- Back To Top -->
+    <a href="#" class="back-to-top">
+      <div class="ripple-container"></div>
+      <i class="mdi mdi-arrow-up">
+      </i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Optional JavaScript -->
+    <script src="FrontEnd/js/jquery-min.js"></script>
+    <script src="FrontEnd/js/popper.min.js"></script>
+    <script src="FrontEnd/js/bootstrap.min.js"></script>
+    <script src="FrontEnd/js/jquery.mixitup.min.js"></script>
+    <script src="FrontEnd/js/jquery.inview.js"></script>
+    <script src="FrontEnd/js/jquery.counterup.min.js"></script>
+    <script src="FrontEnd/js/scroll-top.js"></script>
+    <script src="FrontEnd/js/smoothscroll.js"></script>
+    <script src="FrontEnd/js/material.min.js"></script>
+    <script src="FrontEnd/js/ripples.min.js"></script>
+    <script src="FrontEnd/js/owl.carousel.min.js"></script>
+    <script src="FrontEnd/js/form-validator.min.js"></script>
+    <script src="FrontEnd/js/contact-form-script.min.js"></script>
+    <script src="FrontEnd/js/wow.js"></script>
+    <script src="FrontEnd/js/jquery.vide.js"></script>
+    <script src="FrontEnd/js/jquery.magnific-popup.min.js"></script>
+    <script src="FrontEnd/js/jquery.slicknav.js"></script>
+    <script src="FrontEnd/js/main.js"></script>
+
+  </body>
 </html>
