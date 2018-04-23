@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Facundo Vergara,Marcelo Fernandez">
+    <meta name="description" content="Login" />
+    <link  href="../FrontEnd/img/small-logo.png" rel="icon" type="image/png"/>
+
+    <title>Pizzeria | Login</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../FrontEnd/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../FrontEnd/css/style.css">
+    <link rel="stylesheet" href="../FrontEnd/css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../FrontEnd/css/purple.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
+
+
+  </head>
+  <body>
+
+
+    <div class="loginbox">
+
+      <img src="img/sesion.svg" class="sesionimg">
+
+         <div class="well form-well">
+          <div class="well form-well">
+          <form action="../BackEnd/templates/login.php" id="formLogin" method="post" autocomplete="off">
+            <div class="group">
+              <input required="" name="mail" type="text">
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Email</label>
+            </div>
+
+            <div class="group">
+              <input required="" name="contra" type="password">
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Contraseña</label>
+            </div>
+            
+            <div class="group">
+              <!-- btn btn-warning-->
+              <center><button type="submit" class="botonlogin">Ingresar <span class="glyphicon glyphicon-send"></span></button></center>
+            </div>
+            <div class="error"></div>
+            
+           <a href="">Perdió su contraseña?</a><br>
+           <a href="">No tiene cuenta?</a><br>
+           <a href="../index.html" class="button" id="atras">Volver atrás</a>
+          </form>
+
+
+          
+        </div>
+
+      </div>
+                 
+    </div>
+   
+
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
+       <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" >
+                    <p>Designed by <span style="color:#FF5274">Facundo Vergara & Marcelo Fernandez</span>&copy;  2018</p>
+                </div>
+            </div>
+          </div>
+      </div>
+    </footer>
+    <!--/.Footer-->
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="../FrontEnd/js/popper.min.js"></script>
+    <script src="../FrontEnd/js/bootstrap.min.js"></script>
+    <script src="../FrontEnd/js/material.min.js"></script>
+    <script src="js/main.js"></script>
+	<script src="../BackEnd/js/validaform.js"></script>
+
+	
+  </body>
+</html>

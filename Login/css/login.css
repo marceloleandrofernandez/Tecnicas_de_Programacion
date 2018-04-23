@@ -1,0 +1,237 @@
+
+body{
+	margin:0;
+	padding:0;
+	background: url("../img/pizza.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	
+  	
+}
+footer {
+
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+
+}
+ .loginbox{
+
+	width: 320px;
+	height: 420px;
+	background:#000;
+	color:#fff;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:100px 30px;
+	opacity:0.8;
+}
+.sesionimg{
+
+	width: 100px;
+	height: 130px;
+	position: absolute;
+	top:-10%;
+	left: 36%;
+
+}
+
+
+.loginbox input{
+
+	width: 100%;
+	margin-bottom: 20px;
+
+
+}
+.loginbox input[type="text"],.loginbox input[type="password"]{
+	
+	color:#fff;
+	border:none;
+	border-bottom: 1px solid #868686;
+	font-size: 18px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    background: transparent;
+	outline: none;
+	
+	
+
+}
+.loginbox input[type="submit"]{
+
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+	border:1px solid #FF5274;
+	color:#FF5274;
+	background: transparent;
+	border-radius: 8px;
+	width: 50%;
+	margin-left:25%;
+	
+
+
+}
+.loginbox input[type="submit"]:hover{
+
+	cursor:pointer;
+	background: #fff;
+
+}
+.button {
+
+	
+	border:1px solid #FF5274;
+	color:#FF5274;
+	background: transparent;
+	border-radius: 1px;
+	margin:0 0 0 60%;
+	font-size:14px;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+.button:hover{
+
+	cursor:pointer;
+	border:1px solid #fff;
+	color:#fff;
+	background: transparent;
+	border-radius: 1px;
+	margin:0 0 0 60%;
+	font-size:14px;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+	
+
+.form-well form .botonlogin {
+    background: transparent;
+	border:1px solid #FF5274;
+	border-radius: 1px;
+    width: 120px;
+    color: #FF5274;
+    padding: 5px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.form-well form .botonlogin:hover {
+	border-radius: 1px;
+	border:1px solid #fff;
+    width: 120px;
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+	cursor:pointer;
+}
+.group {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+
+/*------------ Etiqueta----------------*/
+
+.form-well form label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+/* ------- Estado ACTIVO-----------------  */
+
+.form-well form input:focus ~ label,
+.form-well form input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #FF5274;
+    left: 0;
+    border: none;
+}
+.form-well form textarea:focus ~ label,
+.form-well form textarea:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #FF5274;
+    left: 0;
+}
+
+
+
+/* BOTTOM BARS ================================= */
+
+.bar {
+    display: block;
+    width: 100%;
+}
+.bar:before,
+.bar:after {
+	
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+
+    background: #FF5274;
+
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+    left: 50%;
+}
+.bar:after {
+    right: 50%;
+}
+/* active state */
+
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+
+.form-well form .group label {
+    color: #868686;
+}
+
+

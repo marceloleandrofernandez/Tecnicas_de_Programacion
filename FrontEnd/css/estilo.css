@@ -1,0 +1,48 @@
+.navbar-brand img{width:250px}
+.slicknav_nav a:hover,.slicknav_nav .a{
+color: #FF5274
+}
+
+.slicknav_nav .dropdown li a.active{
+background:#FF5274
+}
+
+/* Letra de carrusel color*/
+#color00, #color01,#color02,#color03,#color04,#color05{
+
+	border-color: #000000;
+	text-shadow: 2px 2px 10px black;
+}
+
+
+#serviciospadding , #servicios01{
+
+	padding-top:40px;
+	padding-bottom: 40px;
+
+}
+
+@media (max-width: 767px){
+	#client-logo{
+			padding-left:0px;
+	}
+	#clientesvg {
+		padding-top: 25px;
+		width: 200px;
+		
+	}
+	#serviciospadding , #servicios01{
+
+	padding-top:10px;
+	padding-bottom: 10px;
+
+	}}
+@media (max-width: 340px){
+	.navbar-brand img{width:200px}
+
+	}
+@media (max-width: 285px){
+	.navbar-brand img{width:180px}
+
+	}
+	
