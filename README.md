@@ -39,7 +39,8 @@ Debe contener:
 
 # Auditoria
 
-    Resumen de Caja (detallando factura compra, factura ventas, retiro de dinero, por fecha desde, fecha hasta) (mostrar el saldo anterior a la fecha desde).
+    Resumen de Caja (detallando factura compra, factura ventas, retiro de dinero, por fecha desde, fecha hasta) 
+    (mostrar el saldo anterior a la fecha desde).
     Resumen Pedido de Insumos a Comprar (Stock actual < Stock Mínimo)
     Resumen de Stock detallado por artículos o insumos  (Stock inicial, entrada, salida, stock actual)
 
