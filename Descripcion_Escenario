@@ -1,0 +1,59 @@
+Objetivo:
+1. Crear y normalizar las tablas
+2. Establecer las relaciones
+3. Crear en PowerDesigner modelo físico de datos
+
+Descripción del Escenario
+Es una empresa denominado Yosuko Delivery, el mismo elabora diferentes
+tipos de platos de comidas, como ser pizza, empanadas, etc.
+Para poder elaborar el producto, se debe cumplir los siguientes pasos:
+
+1. Compra de insumos: Se compra 1 o 2 veces por semana, a 1 o más
+proveedores. Para seleccionar el proveedor se tiene en cuenta el precio
+y la marca.
+
+2. Producción: Se establece que producto se va ha elaborar por día, para
+ello se detalla en un cuaderno por producto, que ingredientes se va a
+utilizar indicando la cantidad, peso, y el costo.
+
+3. Una vez elaborado el producto se gurda en un cámara de frío,
+anotando en un cuaderno por producto elaborado, la cantidad, fecha,
+cocinero.
+
+Para poder vender, se debe cumplir los siguientes pasos:
+
+1. Recepción del pedido por venta telefónica: se utiliza una ficha de pedido por triplicado (cliente, caja, cocina), 
+solicitando al cliente, el nombre y apellido, domicilio, teléfono, fecha de nacimiento, y que producto desea consumir.
+  Los datos personales se registran en un cuaderno, para poder llamar al cliente, es su fecha de cumpleaños, ofreciendo 
+productos de oferta.
+
+2. Recepción del pedido en el local de ventas: Se confecciona la misma
+ficha que se utiliza en las ventas telefónicas.
+
+3. El pedido pasa a cocina, el mismo retira el producto de la cámara de
+frío, anotando en un cuaderno. Después cocina y empaca el producto.
+
+4. El producto terminado se entrega, en el caso que sea una venta mostrador, al empleado que atiende y recepciona 
+el pedido, el mismo cobra al cliente, y anota el ingreso en una planilla de caja, que seconfecciona diariamente. 
+  En el caso que sea una venta telefónica, el mismo se entrega a un moto mandado, rellenado una planilla de pedidos entregados, 
+además se confecciona por duplicado, un comprobante de entrega de productos, indicando los datos del cliente, producto y 
+monto a cobrar. Una vez que regresa el moto mandado, rinde el importe total, cobrado, y entrega al empleado, que es la 
+misma persona que atiende las ventas mostrador. Este ingreso se anota en una planilla de caja, y paga el servicio de entrega, 
+este importe anota como salida de caja.
+
+  Para poder controlar el ingreso y egreso de dinero:
+  
+Una vez que se cierra la caja del día, se suma todos los importes de la caja, y se rinde el monto total, el mismo se anota en 
+una planilla de caja mensual, y se guarda el dinero en la caja fuerte. La caja inicial del día siguiente, se parte con un monto
+mínimo de dinero que se utilizará como cambio.
+En el caso que se compre mercadería o se produzca otros gastos, se confecciona un comprobante manual por duplicado, este se 
+entrega al responsable de la caja fuerte. El mismo entrega el dinero y se queda con el comprobante firmado 
+(empleado, proveedor etc.), y se adjunta a la planilla de caja mensual como salida de dinero.
+  Para poder analizar la rentabilidad del Local por semana: Se realiza un stock de mercadería existente en la cámara de frío, 
+se valoriza al costo. Este monto se resta, a la planilla de producción por semana. Esta diferencia se compara con el ingreso 
+total de ventas por semana.
+  Para poder analizar la rentabilidad por mes: Se suma todos los gastos, como ser pagos del personal, pagos a moto mandados etc., 
+Se suma el total de producción y se resta el stock en existencia en cámara.
+  Este valor se compara con el total de ingreso por ventas, anotado en la planilla de caja.
+  
+Nota: La empresa necesita con urgencia, sistematizar, debido a que su crecimiento es exponencial.
