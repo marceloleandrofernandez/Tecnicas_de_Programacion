@@ -1,5 +1,5 @@
 # Tecnicas_de_Programacion
-## Para poder regularizar la materia, deberán presentar el siguiente práctico:
+## Deberán presentar el siguiente práctico:
 
 ### 1) Página Web (recomiendo usar WIX, JOOMLA).
 
